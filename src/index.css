@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+@layer components {
+  .input-form {
+    @apply bg-mainBase border-b border-green text-[30px] outline-none text-lightTitle mt-10 pb-2;
+  }
+  .input-form-mobile {
+    @apply bg-mainBase border-b border-green text-[22px] outline-none text-lightTitle mt-10 pb-2;
+  }
+  .input-form-expenses {
+    @apply bg-mainBase border-b border-green text-[30px] outline-none text-lightTitle mt-20 pb-2;
+  }
+}
+.backgroundOpacity {
+  background: rgba(0, 0, 0, 0.1);
+}
